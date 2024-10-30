@@ -1,22 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home Page</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link rel="stylesheet" href="index.css">
-    <script src="index.js"></script>
-</head>
-
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Shop Page</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <link rel="stylesheet" href="index.css">
+        <script src="index.js"></script>
+    </head>
+    
 <body>
+    
     <div class="header">
         <a href="#" class="logo"><img src="img/Capture-removebg-preview.png"></a>
         <div>
             <ul class="navbar">
-                <li><a href="index.html" class="active">Home</a></li>
-                <li><a href="shop.html" >Shop</a></li>
+                <li><a href="index.html" >Home</a></li>
+                <li><a href="Shop.html" class="active">Shop</a></li>
                 <li><a href="Blog.html">Blog</a></li>
                 <li><a href="About.html">About</a></li>
                 <li><a href="Contacts.html">Contacts</a></li>
@@ -26,51 +27,292 @@
 
     </div>
 
-    <div class="home">
-        <h4>Trade in Offer</h4>
-        <h2>Super value deals</h2>
-        <h1>on all products</h1>
+    <div class="shophome">
+        <h2>Shop with our Home</h2>
         <p>Save more money with 30% to 50% Discounts!</p>
-        <button>Shop Now</button>
     </div>
-
-    <section class="featured">
-        <div class="fbox1">
-            <img src="img/features/f1.png">
-            <h5>Free Shipping</h5>
-        </div>
-
-        <div class="fbox1">
-            <img src="img/features/f2.png">
-            <h5>Online Order</h5>
-        </div>
-
-        <div class="fbox1">
-            <img src="img/features/f3.png">
-            <h5>Save Money</h5>
-        </div>
-
-        <div class="fbox1">
-            <img src="img/features/f4.png">
-            <h5>Promotions</h5>
-        </div>
-
-        <div class="fbox1">
-            <img src="img/features/f5.png">
-            <h5>Happy Sell</h5>
-        </div>
-
-        <div class="fbox1">
-            <img src="img/features/f6.png">
-            <h5>24/7 Support</h5>
-        </div>
-    </section>
-
+    
     <section class="featuredproducts">
-        <h2>Featured products</h2>
-        <P>Enjoy New Collections with quality products and reasonable Prices!</P>
         <!-- 1 Se for products -->
         <div class="wrapper">
+            <div class="procontainer">
+                <div class="product1" onclick="window.location.href='singleproduct.html'">
+                    <img src="img/products/f1.jpg" alt="">
+                    <div class="productdetails">
+                        <span>Adidas</span>
+                        <h4>Cartton-Astronaut T-Shirts</h4>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <div class="price">
+                            <h3 class="old-price">78$</h3>
+                            <h5 class="new-price">50$</h5>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+                </div>
+            </div>
+
+            <!-- 2 for products -->
+            <div class="procontainer">
+                <div class="product1">
+                    <img src="img/products/f2.jpg" alt="">
+                    <div class="productdetails">
+                        <span>Adidas</span>
+                        <h4>Cartton-Astronaut T-Shirts</h4>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <div class="price">
+                            <h3 class="old-price">78$</h3>
+                            <h5 class="new-price">50$</h5>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+                </div>
+            </div>
+
+
+            <!-- 3 for products -->
+            <div class="procontainer">
+                <div class="product1">
+                    <img src="img/products/f3.jpg" alt="">
+                    <div class="productdetails">
+                        <span>Adidas</span>
+                        <h4>Cartton-Astronaut T-Shirts</h4>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <div class="price">
+                            <h3 class="old-price">78$</h3>
+                            <h5 class="new-price">50$</h5>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+                </div>
+            </div>
+
+            <!-- 4 for products -->
+            <div class="procontainer">
+                <div class="product1">
+                    <img src="img/products/f4.jpg" alt="">
+                    <div class="productdetails">
+                        <span>Adidas</span>
+                        <h4>Cartton-Astronaut T-Shirts</h4>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <div class="price">
+                            <h3 class="old-price">78$</h3>
+                            <h5 class="new-price">50$</h5>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+                </div>
+            </div>
+
+            <!-- 5 for products -->
+            <div class="procontainer">
+                <div class="product1">
+                    <img src="img/products/f5.jpg" alt="">
+                    <div class="productdetails">
+                        <span>Adidas</span>
+                        <h4>Cartton-Astronaut T-Shirts</h4>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <div class="price">
+                            <h3 class="old-price">78$</h3>
+                            <h5 class="new-price">50$</h5>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+                </div>
+            </div>
+
+            <!-- 6 for products -->
+            <div class="procontainer">
+                <div class="product1">
+                    <img src="img/products/f6.jpg" alt="">
+                    <div class="productdetails">
+                        <span>Adidas</span>
+                        <h4>Cartton-Astronaut T-Shirts</h4>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <div class="price">
+                            <h3 class="old-price">78$</h3>
+                            <h5 class="new-price">50$</h5>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+                </div>
+            </div>
+
+            <!-- 7 for products -->
+            <div class="procontainer">
+                <div class="product1">
+                    <img src="img/products/f7.jpg" alt="">
+                    <div class="productdetails">
+                        <span>Adidas</span>
+                        <h4>Cartton-Astronaut T-Shirts</h4>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <div class="price">
+                            <h3 class="old-price">78$</h3>
+                            <h5 class="new-price">50$</h5>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+                </div>
+            </div>
+
+            <!-- 8 for products -->
+            <div class="procontainer">
+                <div class="product1">
+                    <img src="img/products/f8.jpg" alt="">
+                    <div class="productdetails">
+                        <span>Adidas</span>
+                        <h4>Cartton-Astronaut T-Shirts</h4>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <div class="price">
+                            <h3 class="old-price">78$</h3>
+                            <h5 class="new-price">50$</h5>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+                </div>
+            </div>
+
+            <!-- 9 for products -->
+            <div class="procontainer">
+                <div class="product1">
+                    <img src="img/products/n3.jpg" alt="">
+                    <div class="productdetails">
+                        <span>Adidas</span>
+                        <h4>Cartton-Astronaut T-Shirts</h4>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <div class="price">
+                            <h3 class="old-price">78$</h3>
+                            <h5 class="new-price">50$</h5>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+                </div>
+            </div>
+
+            <!-- 10 for products -->
+            <div class="procontainer">
+                <div class="product1">
+                    <img src="img/products/n2.jpg" alt="">
+                    <div class="productdetails">
+                        <span>Adidas</span>
+                        <h4>Cartton-Astronaut T-Shirts</h4>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <div class="price">
+                            <h3 class="old-price">78$</h3>
+                            <h5 class="new-price">50$</h5>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+                </div>
+            </div>
+
+            <!-- 11 for products -->
+            <div class="procontainer">
+                <div class="product1">
+                    <img src="img/products/n1.jpg" alt="">
+                    <div class="productdetails">
+                        <span>Adidas</span>
+                        <h4>Cartton-Astronaut T-Shirts</h4>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <div class="price">
+                            <h3 class="old-price">78$</h3>
+                            <h5 class="new-price">50$</h5>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+                </div>
+            </div>
+
+            <!-- 12 for products -->
+            <div class="procontainer">
+                <div class="product1">
+                    <img src="img/products/google.png" alt="">
+                    <div class="productdetails">
+                        <span>Adidas</span>
+                        <h4>Cartton-Astronaut T-Shirts</h4>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <div class="price">
+                            <h3 class="old-price">78$</h3>
+                            <h5 class="new-price">50$</h5>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+                </div>
+            </div>
+    
+            <!-- AGAIN START COMBINIG -->
+        
             <div class="procontainer">
                 <div class="product1">
                     <img src="img/products/f1.jpg" alt="">
@@ -350,310 +592,10 @@
 
     </section>
 
-    <section class="banner">
-        <div class="bannerdiv">
-            <h3>Enjoy Discounts - up to<span> 70% Off</span></h3>
-            <button>Explore More</button>
-        </div>
-    </section>
-
-    <section class="featuredproducts">
-        <h2>Summer Sales</h2>
-        <P>Enjoy New Collections with Discounted Prices and Quality Products!</P>
-        <!-- 1 Se for products -->
-        <div class="wrapper">
-            <div class="procontainer">
-                <div class="product1">
-                    <img src="img/products/f1.jpg" alt="">
-                    <div class="productdetails">
-                        <span>Adidas</span>
-                        <h4>Cartton-Astronaut T-Shirts</h4>
-                        <div class="stars">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fa-regular fa-star"></i>
-                        </div>
-                        <div class="price">
-                            <h3 class="old-price">78$</h3>
-                            <h5 class="new-price">50$</h5>
-                        </div>
-                    </div>
-                    <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
-                </div>
-            </div>
-
-            <!-- 2 for products -->
-            <div class="procontainer">
-                <div class="product1">
-                    <img src="img/products/f2.jpg" alt="">
-                    <div class="productdetails">
-                        <span>Adidas</span>
-                        <h4>Cartton-Astronaut T-Shirts</h4>
-                        <div class="stars">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fa-regular fa-star"></i>
-                        </div>
-                        <div class="price">
-                            <h3 class="old-price">78$</h3>
-                            <h5 class="new-price">50$</h5>
-                        </div>
-                    </div>
-                    <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
-                </div>
-            </div>
-
-
-            <!-- 3 for products -->
-            <div class="procontainer">
-                <div class="product1">
-                    <img src="img/products/f3.jpg" alt="">
-                    <div class="productdetails">
-                        <span>Adidas</span>
-                        <h4>Cartton-Astronaut T-Shirts</h4>
-                        <div class="stars">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fa-regular fa-star"></i>
-                        </div>
-                        <div class="price">
-                            <h3 class="old-price">78$</h3>
-                            <h5 class="new-price">50$</h5>
-                        </div>
-                    </div>
-                    <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
-                </div>
-            </div>
-
-            <!-- 4 for products -->
-            <div class="procontainer">
-                <div class="product1">
-                    <img src="img/products/f4.jpg" alt="">
-                    <div class="productdetails">
-                        <span>Adidas</span>
-                        <h4>Cartton-Astronaut T-Shirts</h4>
-                        <div class="stars">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fa-regular fa-star"></i>
-                        </div>
-                        <div class="price">
-                            <h3 class="old-price">78$</h3>
-                            <h5 class="new-price">50$</h5>
-                        </div>
-                    </div>
-                    <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
-                </div>
-            </div>
-
-            <!-- 5 for products -->
-            <div class="procontainer">
-                <div class="product1">
-                    <img src="img/products/f5.jpg" alt="">
-                    <div class="productdetails">
-                        <span>Adidas</span>
-                        <h4>Cartton-Astronaut T-Shirts</h4>
-                        <div class="stars">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fa-regular fa-star"></i>
-                        </div>
-                        <div class="price">
-                            <h3 class="old-price">78$</h3>
-                            <h5 class="new-price">50$</h5>
-                        </div>
-                    </div>
-                    <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
-                </div>
-            </div>
-
-            <!-- 6 for products -->
-            <div class="procontainer">
-                <div class="product1">
-                    <img src="img/products/f6.jpg" alt="">
-                    <div class="productdetails">
-                        <span>Adidas</span>
-                        <h4>Cartton-Astronaut T-Shirts</h4>
-                        <div class="stars">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fa-regular fa-star"></i>
-                        </div>
-                        <div class="price">
-                            <h3 class="old-price">78$</h3>
-                            <h5 class="new-price">50$</h5>
-                        </div>
-                    </div>
-                    <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
-                </div>
-            </div>
-
-            <!-- 7 for products -->
-            <div class="procontainer">
-                <div class="product1">
-                    <img src="img/products/f7.jpg" alt="">
-                    <div class="productdetails">
-                        <span>Adidas</span>
-                        <h4>Cartton-Astronaut T-Shirts</h4>
-                        <div class="stars">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fa-regular fa-star"></i>
-                        </div>
-                        <div class="price">
-                            <h3 class="old-price">78$</h3>
-                            <h5 class="new-price">50$</h5>
-                        </div>
-                    </div>
-                    <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
-                </div>
-            </div>
-
-            <!-- 8 for products -->
-            <div class="procontainer">
-                <div class="product1">
-                    <img src="img/products/f8.jpg" alt="">
-                    <div class="productdetails">
-                        <span>Adidas</span>
-                        <h4>Cartton-Astronaut T-Shirts</h4>
-                        <div class="stars">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fa-regular fa-star"></i>
-                        </div>
-                        <div class="price">
-                            <h3 class="old-price">78$</h3>
-                            <h5 class="new-price">50$</h5>
-                        </div>
-                    </div>
-                    <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
-                </div>
-            </div>
-
-            <!-- 9 for products -->
-            <div class="procontainer">
-                <div class="product1">
-                    <img src="img/products/n3.jpg" alt="">
-                    <div class="productdetails">
-                        <span>Adidas</span>
-                        <h4>Cartton-Astronaut T-Shirts</h4>
-                        <div class="stars">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fa-regular fa-star"></i>
-                        </div>
-                        <div class="price">
-                            <h3 class="old-price">78$</h3>
-                            <h5 class="new-price">50$</h5>
-                        </div>
-                    </div>
-                    <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
-                </div>
-            </div>
-
-            <!-- 10 for products -->
-            <div class="procontainer">
-                <div class="product1">
-                    <img src="img/products/n2.jpg" alt="">
-                    <div class="productdetails">
-                        <span>Adidas</span>
-                        <h4>Cartton-Astronaut T-Shirts</h4>
-                        <div class="stars">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fa-regular fa-star"></i>
-                        </div>
-                        <div class="price">
-                            <h3 class="old-price">78$</h3>
-                            <h5 class="new-price">50$</h5>
-                        </div>
-                    </div>
-                    <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
-                </div>
-            </div>
-
-            <!-- 11 for products -->
-            <div class="procontainer">
-                <div class="product1">
-                    <img src="img/products/n1.jpg" alt="">
-                    <div class="productdetails">
-                        <span>Adidas</span>
-                        <h4>Cartton-Astronaut T-Shirts</h4>
-                        <div class="stars">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fa-regular fa-star"></i>
-                        </div>
-                        <div class="price">
-                            <h3 class="old-price">78$</h3>
-                            <h5 class="new-price">50$</h5>
-                        </div>
-                    </div>
-                    <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
-                </div>
-            </div>
-
-            <!-- 12 for products -->
-            <div class="procontainer">
-                <div class="product1">
-                    <img src="img/products/google.png" alt="">
-                    <div class="productdetails">
-                        <span>Adidas</span>
-                        <h4>Cartton-Astronaut T-Shirts</h4>
-                        <div class="stars">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fa-regular fa-star"></i>
-                        </div>
-                        <div class="price">
-                            <h3 class="old-price">78$</h3>
-                            <h5 class="new-price">50$</h5>
-                        </div>
-                    </div>
-                    <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
-                </div>
-            </div>
-        </div>
-
-    </section>
-
-    <section class="banner2">
-        <div class="banner2img1">
-            <h4>Crazy Deals</h4>
-            <h2>Buy 1 get 1 free</h2>
-            <span>The best classic dress is on sale at Mysteric Mart!</span>
-            <button>Learn More</button>
-        </div>
-        <div class="banner2img2">
-            <h4>Spring/Summer</h4>
-            <h2>upcoming session</h2>
-            <span>The best classic dress is on sale at Mysteric Mart!</span>
-            <button>Learn More</button>
-        </div>
+    <section class="pagination">
+        <a href="#">1</a>
+        <a href="#">2</a>
+        <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
     </section>
 
     <section class="signup">
@@ -723,5 +665,5 @@
             <p> © 2024 Copyright ©  Mysteric Mart Ecommerce Website</p>
         </div>
     </footer>
-
+</body>
 </html>

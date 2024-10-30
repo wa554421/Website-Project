@@ -621,7 +621,7 @@ p{
 /* Home Page Ended */
 
 /* MEDIA QUERIES */
-@media only screen and (min-width: 1024px) {
+/* @media only screen and (min-width: 1024px) {
     .home{
         height: 40vh;
     }
@@ -639,4 +639,141 @@ p{
     .signup{
     
     
+} */
+
+
+
+
+
+/* *******************************************************************  SHOP PAGE *********************************************************************/
+
+.shophome{
+    background-image: url("img/banner/b1.jpg");
+    height: 40vh;
+    width: 100%;   
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.shophome h2{
+    padding-left: 50px;
+    font-size: 60px; 
+    color: #fff;
+    padding: 20px 0px;
+}
+
+.shophome p{
+    padding-left: 50px;
+    font-size: 20px;
+    color: #fff;
+    padding-right: 55px ;
+}
+
+/* Pagination */
+.pagination{
+    padding-bottom: 70px;
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.pagination a{
+    background-color:#088178;
+    padding: 7px 11px;
+    padding-top: 13px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+/************************************************* Single Product Page *********************************************************/
+
+.singleproimage{
+    width: 40%;
+    padding: 50px 80px;
+}
+
+.mainimage{
+    height: 500px; 
+    cursor: pointer;
+}
+
+.smallimagegroup{
+    display: flex;
+    justify-content: space-between;  
+}
+
+.smallimagegroup img{
+    padding: 0px 5px;
+    height: 120px;
+    width: 127px;
+    cursor: pointer;
+}
+
+.ordersetting{
+    display: flex;
+}
+
+.writtenitems{
+    padding:70px 50px ; 
+}
+
+.writtenitems p{
+    color: black;
+}
+
+.writtenitems h2{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.writtenitems h1{
+    font-size: 33px;
+    font-weight: 700;
+    color: red;
+}
+
+.writtenitems select{
+    font-size: 15px;
+    display: block;
+    margin-top: 10px;
+    padding: 5px 5px;
+    margin-bottom: 25px;
+    width: 100px;
+    height :37px;
+}
+
+.writtenitems input {
+    padding: 8px;
+    width: 50px;
+    height: 40px;
+    margin-right: 20px;
+}
+
+.writtenitems button{
+    padding: 8px;
+    background-color: #088178;
+    color: #fff;
+    border: none;
+    padding: 14px 20px 14px 20px;
+}
+.writtenitems h4{
+    padding-left:  0px;
+    padding-top: 50px;
+    color: black;
+    font-size: 33px;
+    font-weight: 450;
+}
+
+.productdescription{
+    color: black;
+    font-size: 20px;
+    font-weight: 300;
+    word-spacing: 5px;
+    width: 70%;
+    line-height: 25px;    
 }
