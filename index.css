@@ -777,3 +777,231 @@ p{
     width: 70%;
     line-height: 25px;    
 }
+
+/******************************************************************************* About Page *************************************************************************/
+
+.bannerabout{
+    background-image: url(img/about/banner.png);
+    height: 30vh;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.bannerabout h1{
+    padding-right: 30px;
+    padding-top: 90px;
+    font-size: 50px;
+    font-weight: 500;
+    color: #fff;
+}
+.bannerabout p{
+    padding-top: 0px;
+    color: #fff;
+}
+
+/* Introduction */
+.introduction{
+    padding-top: 50px;
+    width: 100%;
+    height: 500px;
+    margin-top: 50px;
+    display: flex;
+    padding-left: 60px;
+}
+/* Text */
+.introductiontext{
+    width: 70%;
+}
+.introductiontext h2{
+    text-align: center;
+}
+.introductiontext p{
+    font-size: 22px;
+    line-height: 1.5;
+    word-spacing: 2.5px;
+    word-wrap: break-word; 
+    overflow-wrap: break-word; 
+}
+.introductionimage{
+    margin-left: 150px;
+    padding-top: 20px;
+}
+.introductionimage img{
+    background-size: cover;
+    width: 80%;
+    border-radius: 15px;  
+}
+
+
+/* Vision */
+.vision{
+    display: flex;
+    padding-top: 100px;
+    height: 550px;
+}
+/* Vsioin image */
+.visionimage{
+    padding-left: 60px;
+}
+.visionimage img{
+    width: 550px;
+    padding-top: 20px;
+    border-radius: 15px;
+    height: 370px;
+}
+/* Vision text */
+.visiontext{
+    width: 40%;
+    margin-left: 80px;
+    padding-left: 30px;
+}
+.visiontext h2{
+    text-align: center;
+}
+.visiontext p{
+    font-size: 22px;
+    line-height: 1.5;
+    word-spacing: 2.5px;
+    word-wrap: break-word; 
+    overflow-wrap: break-word; 
+}
+
+.contactabout{
+    text-align: center;
+    padding-right: 30px;
+    margin-bottom: 50px;
+}
+.contactabout p{
+    font-size: 20px;
+    color: black;
+}
+.contactabout p a{
+    text-decoration: none;
+}
+
+
+/******************************************************* Contact Page *************************************************************/
+
+.bannercontact{
+    background-image: url(img/about/banner.png);
+    height: 35vh;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.bannercontact h1{
+    padding-top: 90px;
+    font-size: 50px;
+    font-weight: 650;
+    color: #fff;
+}
+.bannercontact p{
+    padding-top: 0px;
+    color: #fff;
+    word-spacing: 3px
+}
+.bannercontact span{
+    display: inline-block;
+    padding-top: 0px;
+    color: #fff;
+    font-size: 16px;
+    color: red;
+    font-weight: 600;
+    padding-right: 5px;
+}
+
+
+.contactsection{
+    border: 1px solid black;
+    margin: 90px 30px;
+    height: 700px;
+    display: flex;
+}
+.formcontact{
+    width: 60%;
+    height: 100%;
+    padding-top: 20px;
+}
+
+.formcontact h2{
+    text-align: center;
+    padding-right: 100px;
+}
+.formcontact p{
+    color: #465b52;
+    padding-left: 100px;
+}
+
+.contactname{
+    padding: 30px 60px;
+}
+.contactname label{
+    font-size: 40px;
+    font-weight: 500;
+    color: #088178;
+}
+.contactname input{
+    padding: 12px 10px 8px 20px;
+    font-size:20px ;
+    font-weight: 300;
+    width: 350px;
+}
+
+.contactemail{
+    padding: 30px 60px;
+}
+.contactemail label{
+    font-size: 40px;
+    font-weight: 500;
+    color: #c21414;
+}
+.contactemail input{
+    padding: 12px 10px 8px 20px;
+    font-size:20px ;
+    font-weight: 300;
+    width: 350px;
+}
+
+
+.contactmessage{
+    padding: 30px 60px;
+    display: flex;
+    flex-direction: column;
+}
+.contactmessage label{
+    font-size: 40px;
+    font-weight: 500;
+    color: #465b52
+}
+.contactmessage textarea{
+    margin-top: 10px;
+    height: 190px;
+    resize: none;
+    width: 700px;
+    font-size: 20px ;
+    font-weight: 300;
+    padding: 10px 10px;
+}
+
+.formcontact button{
+    padding: 10px 30px;
+    background-color: #088178;
+    margin-left: 60px;
+    font-size: 20px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+.peoples{
+    border: 1px solid black;
+    
+    width: 100%;
+}

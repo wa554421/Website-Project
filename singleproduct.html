@@ -18,10 +18,10 @@
             <ul class="navbar">
                 <li><a href="index.html" class="active">Home</a></li>
                 <li><a href="shop.html">Shop</a></li>
-                <li><a href="Blog.html">Blog</a></li>
-                <li><a href="About.html">About</a></li>
-                <li><a href="Contacts.html">Contacts</a></li>
-                <li><a href="Cart.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contacts</a></li>
+                <li><a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
             </ul>
         </div>
 
@@ -257,10 +257,11 @@
         </div>
     </footer>
 
+
     <script>
         const mainimg = document.querySelector(".mainimage");
         const smallImages = document.querySelectorAll(".smallimage");
-    
+
         smallImages.forEach((img, index) => {
             img.addEventListener("click", () => {
                 mainimg.src = img.src;
