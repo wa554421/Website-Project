@@ -138,10 +138,13 @@ p{
     font-size: 16px;
     font-weight: 600;
     outline: none;
+    border: none;
 }
 
 .home button:hover{
-    background-color: #088178;
+    background-color: #469b94;
+    border-radius: 10px;
+    cursor: pointer;
 }
 
 /* Featured Section */
@@ -918,6 +921,7 @@ p{
 .contactsection{
     border: 1px solid black;
     margin: 90px 30px;
+    margin-bottom: 50px;
     height: 700px;
     display: flex;
 }
@@ -1001,7 +1005,118 @@ p{
 
 
 .peoples{
-    border: 1px solid black;
-    
     width: 100%;
+}
+
+.people1start{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 75px;
+    margin-right: 50px;
+}
+.people1start img{
+    width: 80px;
+    height: 75px;
+}
+.people1information{
+    padding-top: 25px;
+    padding-left: 15px;
+}
+.people1information h5{
+    font-size: 18px;
+    color: #088178;
+}
+.people1information p{
+    font-size: 15px;
+    line-height: 9px;
+    color: #3b2f2f;
+    font-weight: bold;
+    
+}
+
+
+
+.people2start{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-right: 50px;
+}
+.people2start img{
+    width: 80px;
+    height: 75px;
+}
+.people2information{
+    padding-top: 25px;
+    padding-left: 15px;
+}
+.people2information h5{
+    font-size: 18px;
+    color: #088178;
+}
+.people2information p{
+    font-size: 15px;
+    line-height: 9px;
+    color: #3b2f2f;
+    font-weight: bold;
+    
+}
+
+
+
+.people3start{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-right: 50px;
+}
+.people3start img{
+    width: 80px;
+    height: 75px;
+}
+.people3information{
+    padding-top: 25px;
+    padding-left: 15px;
+}
+.people3information h5{
+    font-size: 18px;
+    color: #088178;
+}
+.people3information p{
+    font-size: 15px;
+    line-height: 9px;
+    color: #3b2f2f;
+    font-weight: bold;
+    
+}
+
+/* Visit  if you add then write */
+
+
+
+
+
+
+
+
+
+/* ************************************************************* Cart ************************************************************************* */
+
+.cartsection{
+    height: 80vh;
+}
+.cartsection h1{
+    text-align: center;
+    padding-top: 220px;
+    color: #088178;
+}
+.cartsection p{
+    text-align: center;
+    padding-top: 15px;
+    font-size: 22px;
+    color: #df320f;
+    font-weight: 600;
 }
